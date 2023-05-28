@@ -1,0 +1,41 @@
+/*************************************************************************
+ * This css file is for your own style.
+ *************************************************************************/
+
+#me {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.flex-item-stretch-6 {
+  flex: 1 auto;
+}
+
+.max-width-600 {
+  max-width: 600px;
+}
+
+.menu-container {
+  background-color: #9b95c9;
+}
+
+h4,
+h3,
+h2,
+.badge-text {
+  color: #404040 !important;
+}
+
+hr {
+  background: #404040;
+}
+
+.content p a {
+  color: #ed6c00 !important;
+}
+
+@media screen and (min-width: 900px) {
+  .flex-item-stretch-6 {
+    flex: 5.5;
+  }
+}
